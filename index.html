@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Todo app</title>
+</head>
+
+<body>
+  <main>
+    <div class="title">
+      <h1>Todo</h1>
+      <div>
+        <button id="toggle-btn">
+          <img src="assets/images/icon-sun.svg" class="sun-icon active" alt="theme toggle icon">
+          <img src="assets/images/icon-moon.svg" class="moon-icon" alt="theme toggle icon">
+        </button>
+      </div>
+    </div>
+    <div class="task-input-container">
+      <label class="task-input-label" for="task-input"></label>
+      <input type="text" name="task-input" id="task-input" placeholder="Create a new todo..." autocomplete="off">
+    </div>
+
+    <div class="sortable-list shadow">
+      <ul class="tasks-container" id="tasks-container">
+      </ul>
+      <div class="buttons-container" id="buttons-container">
+        <p id="items-counter"></p>
+        <div class="middle-buttons">
+          <button id="all-btn" class="btn-middle">All</button>
+          <button id="active-btn" class="btn-middle">Active</button>
+          <button id="completed-btn" class="btn-middle">Completed</button>
+        </div>
+        <div>
+          <button class="btn-right" id="clear-btn">Clear Completed</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="info">
+      <p>Drag and drop to reorder list</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
