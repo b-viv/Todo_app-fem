@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://b-viv.github.io/Todo_app-fem/)
+- Solution URL: [Link](https://your-solution-url.com)
+- Live Site URL: [Link](https://b-viv.github.io/Todo_app-fem/)
 
 ## My process
 
@@ -48,4 +48,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Viv_](https://www.frontendmentor.io/profile/b-viv)
